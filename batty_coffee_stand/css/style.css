@@ -89,3 +89,30 @@ header {
 .information-list li {
   margin-bottom: 10px;
 }
+
+.staff-list-area:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.staff-list {
+  width: 150px;
+  margin-right: 35px;
+  float: left;
+}
+
+.staff-list:last-child {
+  margin-right: 0;
+}
+
+.staff-image {
+  margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+
+.staff-name {
+  text-align: center;
+}
