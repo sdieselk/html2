@@ -116,3 +116,14 @@ header {
 .staff-name {
   text-align: center;
 }
+
+.copyright {
+  color: #777;
+  text-align: center;
+}
+
+.main:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
