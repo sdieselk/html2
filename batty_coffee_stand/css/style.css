@@ -80,3 +80,12 @@ header {
   width: 300px;
   float: left;
 }
+
+.information-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.information-list li {
+  margin-bottom: 10px;
+}
